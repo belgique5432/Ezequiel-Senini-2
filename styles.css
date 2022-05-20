@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@100&family=Open+Sans&family=Oswald:wght@200&display=swap');
+
+body, html {
+    height: 100vh;
+    font-family: "Lato";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    z-index: 2;
+}
+
+.section2 {
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.secimg {
+    width: 100%;
+    flex-wrap: wrap; 
+    margin-top: 20px;
+}
+
+
+.Info {
+    margin: 20px;
+}
+
+.lancer {
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 10vh;
+    display: flex;
+    margin-top: 40px;
+}
+
+
+
+@media  (min-width: 990px) {
+    ul {
+        margin-left: 80%;
+    }
+
+    .secimg {
+        width: 45%;
+        margin-left: 20px;
+    }
+
+    .Info {
+        width: 50%;
+        margin-left: 20px;
+    }
+
+    .laninfo {
+        width: 30%;
+        margin-top: 30px;
+    }
+}
+
